@@ -19,25 +19,25 @@ genOpMaster_DF.to_csv("data/Generators_Operating_Master.csv", index=False)
 
 #Pull the plants by energy source
 ng = genOpMaster_DF[genOpMaster_DF['Energy Source 1'] == "NG"]
-ng.to_csv('C:/Dropbox/Docs/Code/PyCharm/Mapping/data/NaturalGas_op.csv')
+ng.to_csv('/data/NaturalGas_op.csv')
 
 bit = genOpMaster_DF[genOpMaster_DF['Energy Source 1'] == "BIT"]
-bit.to_csv('C:/Dropbox/Docs/Code/PyCharm/Mapping/data/BIT_Coal_op.csv')
+bit.to_csv('/data/BIT_Coal_op.csv')
 
 ant = genOpMaster_DF[genOpMaster_DF['Energy Source 1'] == "ANT"]
-ant.to_csv('C:/Dropbox/Docs/Code/PyCharm/Mapping/data/ANT_Coal_op.csv')
+ant.to_csv('data/ANT_Coal_op.csv')
 
 sub = genOpMaster_DF[genOpMaster_DF['Energy Source 1'] == "SUB"]
-sub.to_csv('C:/Dropbox/Docs/Code/PyCharm/Mapping/data/SUB_op.csv')
+sub.to_csv('/data/SUB_op.csv')
 
 nuc = genOpMaster_DF[genOpMaster_DF['Energy Source 1'] == "NUC"]
-nuc.to_csv('C:/Dropbox/Docs/Code/PyCharm/Mapping/data/NUC_op.csv')
+nuc.to_csv('/data/NUC_op.csv')
 
 lig = genOpMaster_DF[genOpMaster_DF['Energy Source 1'] == "LIG"]
-lig.to_csv('C:/Dropbox/Docs/Code/PyCharm/Mapping/data/LIG_op.csv')
+lig.to_csv('/data/LIG_op.csv')
 
 solar = genOpMaster_DF[genOpMaster_DF['Energy Source 1'] == "SUN"]
-solar.to_csv('C:/Dropbox/Docs/Code/PyCharm/Mapping/data/SUN_op.csv')
+solar.to_csv('/data/SUN_op.csv')
 
 wind = genOpMaster_DF[genOpMaster_DF['Energy Source 1'] == "WND"]
-wind.to_csv('C:/Dropbox/Docs/Code/PyCharm/Mapping/data/WND_op.csv')
+wind.to_csv('/data/WND_op.csv')
